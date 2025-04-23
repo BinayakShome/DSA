@@ -4,7 +4,6 @@ public class pattern2 {
     public static void main(String[] args) {
         int size = 6;
 
-        // Upper Part of the Heart
         for (int i = size / 2; i <= size; i += 2) {
             for (int j = 1; j < size - i; j += 2)
                 System.out.print(" ");
@@ -17,7 +16,6 @@ public class pattern2 {
             System.out.println();
         }
 
-        // Lower Part of the Heart
         for (int i = size; i >= 1; i--) {
             for (int j = 0; j < size - i; j++)
                 System.out.print(" ");
