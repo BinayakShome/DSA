@@ -1,0 +1,14 @@
+package Arrays.Part1;
+
+public class LeftRotateByDplaces {
+    static void Rotate(int arr[], int n, int k)
+    {
+
+    }
+
+    public static void main(String[] args)
+    {
+        int arr[] = {1,2,3,4,5,6,7,8,9}, n = arr.length, k = 3;
+        Rotate(arr, n, k);
+    }
+}
