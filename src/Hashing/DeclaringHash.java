@@ -28,7 +28,7 @@ public class DeclaringHash {
             int number;
             number = sc.nextInt();
             // fetching:
-            System.out.println(hash[number]);
+            System.out.print(hash[number]);
         }
     }
 }
