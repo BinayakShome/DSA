@@ -1,6 +1,5 @@
 package Arrays.Part3;
 
-
 import java.util.*;
 
 public class PascalTriangle3 {

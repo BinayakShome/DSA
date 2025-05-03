@@ -4,12 +4,12 @@ public class CountFrequencyElement {
     public static void main(String[] args)
     {
         int arr[] = {10,5,10,15,10,5};
-        int n = arr.length;
-        countFrequency(arr,n);
+        countFrequency(arr);
     }
 
-    static void countFrequency(int arr[], int n)
+    static void countFrequency(int arr[])
     {
+        int n = arr.length;
         boolean visited[] = new boolean[n];
         for(int i = 0; i<n; i++)
         {
