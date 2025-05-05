@@ -55,7 +55,5 @@ public class CountOccurance {
         int array[] = {2, 4, 6, 8, 8, 8, 11, 13};
         int x = 8;
         System.out.println(count(array,x));
-        System.out.println(first(array,x));
-        System.out.println(last(array,x));
     }
 }
