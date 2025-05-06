@@ -5,7 +5,6 @@ public class MinimumRotatedArray {
     {
         int left = 0, right = nums.length - 1;
         int minimum = Integer.MAX_VALUE;
-
         while(left <= right )
         {
             int mid = (left + right) /2;
