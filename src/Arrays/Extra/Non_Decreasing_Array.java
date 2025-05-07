@@ -17,14 +17,15 @@ public class Non_Decreasing_Array {
     {
         int arr1[] = {3, 4, 6, 8, 9, 11};
         int arr2[] = {3 ,4 ,3 ,5, 9};
+        int arr[] = {10,9,8,7,6,5};
 
         if(nonDecreasing(arr1))
         {
-            System.out.println("non decreasing");
+            System.out.println("increasing");
         }
         else
         {
-            System.out.println("not non decreasing");
+            System.out.println("decreasing");
         }
     }
 }
