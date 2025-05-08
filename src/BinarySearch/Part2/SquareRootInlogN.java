@@ -25,6 +25,5 @@ public class SquareRootInlogN {
     {
         int num = 9;
         System.out.println(squareRoot(num));
-        System.out.println(15/2);
     }
 }

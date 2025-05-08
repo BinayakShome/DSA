@@ -1,7 +1,7 @@
 package BinarySearch.Part2;
 import java.util.Arrays;
 public class SmallestDivisor {
-    static int sum(int nums[], int divisor)
+    static int sum(int[] nums, int divisor)
     {
         int total = 0;
         for (int num : nums) {
@@ -9,7 +9,7 @@ public class SmallestDivisor {
         }
         return total;
     }
-    static int divisor(int nums[], int limit)
+    static int divisor(int[] nums, int limit)
     {
         int start = 1, end = Arrays.stream(nums).max().getAsInt();
         int ans = end;
@@ -32,7 +32,7 @@ public class SmallestDivisor {
     }
     public static void main(String[] args)
     {
-        int arr[] = {8,4,2,3};
+        int[] arr = {8,4,2,3};
         int limit = 10;
         System.out.println(divisor(arr,limit));
     }
