@@ -1,4 +1,4 @@
-package LinkedList.Extra;
+package LinkedList.Part1_2;
 
 public class DoubleLinkedList {
     class Node
