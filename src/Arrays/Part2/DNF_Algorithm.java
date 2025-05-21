@@ -1,7 +1,5 @@
 package Arrays.Part2;
 
-import java.util.ArrayList;
-
 //Sort the array according to 0s, 1s, and 2s
 public class DNF_Algorithm {
     static void swap(int[] arr, int i, int j) {
