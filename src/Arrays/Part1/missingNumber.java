@@ -1,5 +1,7 @@
 package Arrays.Part1;
 
+import java.util.Arrays;
+
 public class missingNumber {
     static int missingNumber(int arr[])
     {
