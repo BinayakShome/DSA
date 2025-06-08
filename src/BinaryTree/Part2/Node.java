@@ -1,4 +1,4 @@
-package BinaryTree.Part1;
+package BinaryTree.Part2;
 
 class Node
 {
