@@ -20,6 +20,7 @@ public class FibonacciDP {
     {
         int prev2 = 0, prev = 1;
 
+        /// SC = O(1) TC = O(N)
         for(int i = 2; i <= n; i++)
         {
             int cur = prev + prev2;
