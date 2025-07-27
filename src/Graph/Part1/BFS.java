@@ -15,7 +15,7 @@ public class BFS {
 
         while(!q.isEmpty())
         {
-            Integer node = q.poll();
+            int node = q.poll();
             bfs.add(node);
 
             for(int it: adj.get(node))
@@ -50,7 +50,6 @@ public class BFS {
 
         {
             System.out.print(ans.get(i) + " ");
-
         }
     }
 }
