@@ -15,8 +15,11 @@ public class Permutations {
     {
         if(curr.size() == nums.length)
         {
+            if(!result.contains(curr))
+            {
             result.add(new ArrayList<>(curr));
             return;
+            }
         }
 
         for(int i = 0; i < nums.length; i++)
@@ -34,7 +37,7 @@ public class Permutations {
     }
     public static void main(String []args)
     {
-        int []arr = {1, 2, 3};
+        int []arr = {1, 1, 2};
         System.out.println(permut(arr));
     }
 }
