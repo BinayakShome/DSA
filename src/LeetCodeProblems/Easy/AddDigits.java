@@ -1,4 +1,4 @@
-package LeetCodeProblems;
+package LeetCodeProblems.Easy;
 
 public class AddDigits {
     static int add(int n)

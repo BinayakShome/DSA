@@ -1,4 +1,4 @@
-package LeetCodeProblems;
+package LeetCodeProblems.Easy;
 
 public class ArrangingCoins {
     static int coins(int n)

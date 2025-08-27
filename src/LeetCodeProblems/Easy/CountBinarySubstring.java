@@ -1,4 +1,4 @@
-package LeetCodeProblems;
+package LeetCodeProblems.Easy;
 
 public class CountBinarySubstring {
     static int countBinarySubstrings(String s)

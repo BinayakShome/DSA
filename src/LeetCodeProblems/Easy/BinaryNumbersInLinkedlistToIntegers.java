@@ -1,6 +1,4 @@
-package LeetCodeProblems;
-
-import LinkedList.Part3.MiddleOfLinkedList;
+package LeetCodeProblems.Easy;
 
 public class BinaryNumbersInLinkedlistToIntegers {
     static class Node

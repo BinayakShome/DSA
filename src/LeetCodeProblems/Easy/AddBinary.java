@@ -1,4 +1,4 @@
-package LeetCodeProblems;
+package LeetCodeProblems.Easy;
 
 public class AddBinary {
     static String addbinary(String a, String b)
