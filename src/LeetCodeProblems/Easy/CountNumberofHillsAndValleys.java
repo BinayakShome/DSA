@@ -1,4 +1,4 @@
-package LeetCodeProblems;
+package LeetCodeProblems.Easy;
 
 public class CountNumberofHillsAndValleys {
     static int countHillValley(int[] nums)

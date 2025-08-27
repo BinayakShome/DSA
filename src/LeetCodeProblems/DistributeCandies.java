@@ -3,7 +3,7 @@ package LeetCodeProblems;
 import java.util.HashSet;
 import java.util.Set;
 
-public class DifferentCandies {
+public class DistributeCandies {
     static int candy(int []candyType)
     {
         int n = candyType.length;

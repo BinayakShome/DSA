@@ -1,4 +1,4 @@
-package LeetCodeProblems;
+package LeetCodeProblems.Medium;
 
 public class DiagonalTraverse {
     static int[] traverse(int [][]mat)
